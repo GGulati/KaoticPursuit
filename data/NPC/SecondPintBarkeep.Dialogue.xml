@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NPCDialogue>
+	<Exchange ID="0" NPCSays="Hello, adventurer.">
+		<Response NavID="1">Hello</Response>
+		<Response NavID="1">Hi</Response>
+	</Exchange>
+	<Exchange ID="1" NPCSays="How can I help you?" threshold=".23">
+		<Response NavID="2">I would like some beer.</Response>
+		<Response NavID="3">I heard there was a quest.</Response>
+	</Exchange>
+	<Exchange ID="2" NPCSays="I'm afraid I can't help you with that.">
+		<Response NavID="1">Alright.</Response>
+	</Exchange>
+	<Exchange ID="3" NPCSays="Yes... my old friend runs a tavern to the south. Can you talk to him?">
+		<Response NavID="4" flagEquals_0="TestQuestState" flagSet_1="TestQuestState" FailID="5">Yes</Response>
+		<Response NavID="1">No</Response>
+		<Response NavID="6" flagEquals_2="TestQuestState" flagSet_3="TestQuestState" itemGive_10="Gold">Done</Response>
+	</Exchange>
+	<Exchange ID="4" NPCSays="Do it soon. There's 10 Gold in it for you.">
+		<Response NavID="1">Alright.</Response>
+	</Exchange>
+	<Exchange ID="5" NPCSays="You already took the quest!">
+		<Response NavID="1">Alright.</Response>
+	</Exchange>
+	<Exchange ID="6" NPCSays="Here you go!">
+		<Response NavID="1">Alright</Response>
+		<Response NavID="1">Thanks</Response>
+		<Response NavID="1">Thank you</Response>
+	</Exchange>
+</NPCDialogue>

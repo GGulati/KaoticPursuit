@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<World>
+	<Room name='The Second Pint' desc='A busy tavern with a door to the east.'>
+		<NPC>SecondPintBarkeep</NPC>
+	</Room>
+	<Room name='Main Street' desc='A quiet street with a tavern on the west side that continues into the north and the south.'>
+		<Item amount='100'>Gold</Item>
+	</Room>
+	<Room name='North Street' desc='A busy hub of commerce with a shop on the east side and a refined bar on the west side, with Main Street to the south.'>
+		<Item amount='1'>Diamond</Item>
+	</Room>
+	<Room name='South Street' desc='An undeveloped area with a broken-down tavern on the east side and a thrift store in the west. Main Street lies to the north of this shadowy part of town.'>
+		<Item>Moldy Leather Armor</Item>
+	</Room>
+	<Room name='The Dry Bottle' desc='A well-known bar that serves well-aged wine to the wealthy merchants... and to experienced adventurers. It has a door on the east side.'>
+	</Room>
+	<Room name='The Snake and the Merchant' desc='A reputable weapons store whose owner deals in enchanted arms and armor. Its entry can be found on the west side.'>
+		<Item name='Chest'>
+			<Item>Torch</Item>
+			<Item amount='5'>Diamond</Item>
+		</Item>
+		<Item name='Chest'>
+			<Item amount='1000'>Gold</Item>
+		</Item>
+	</Room>
+	<Room name='The Vulgar Ape' desc='A so-called tavern that sells filthy swill. Most customers are literally swept off their feet by the bouncers, right through the door on the west of the ramshackle wooden construction.'>
+		<NPC>TheVulgarApeBarkeep</NPC>
+		<NPC>TheVulgarApeBouncer1</NPC>
+		<NPC>TheVulgarApeBouncer2</NPC>
+		<Item>Aged Bronze Sword</Item>
+	</Room>
+	<Room name="The Ogre's Fists" desc='A infamous thrift store that sells various kinds of weapons, especially those of the illegal variety. Most customers only notice the doorway cut out of the east wall.'>
+		<NPC>TheOgresFistsOwner</NPC>
+	</Room>
+	<!--STREET TO STREET-->
+	<Exit from='1' to='2'>North</Exit>
+	<Exit from='1' to='3'>South</Exit>
+	<Exit from='3' to='1'>North</Exit>
+	<Exit from='2' to='1'>South</Exit>
+	<!--STREET TO BUILDING-->
+	<Exit from='0' to='1'>East</Exit>
+	<Exit from='1' to='0'>West</Exit>
+	<Exit from='2' to='4'>West</Exit>
+	<Exit from='2' to='5'>East</Exit>
+	<Exit from='4' to='2'>East</Exit>
+	<Exit from='5' to='2'>West</Exit>
+	<Exit from='3' to='6'>East</Exit>
+	<Exit from='3' to='7'>West</Exit>
+	<Exit from='6' to='3'>West</Exit>
+	<Exit from='7' to='3'>East</Exit>
+<!-- FOR FUTURE REFERENCE
+	<Room name='' desc=''>
+		<NPC></NPC
+		<Item amount=''></Item>
+	</Room>
+	<Exit from='' to=''></Exit>
+-->
+</World>

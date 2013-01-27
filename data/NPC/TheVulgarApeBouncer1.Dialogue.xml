@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NPCDialogue>
+	<Exchange ID="0" NPCSays="Mind if I try out my new club on you?">
+		<Response NavID="1">Yes</Response>
+		<Response NavID="1">No</Response>
+	</Exchange>
+	<Exchange ID="1" NPCSays="A pity I'd get fired if I did, then.">
+		<Response NavID="0">I don't care</Response>
+	</Exchange>
+</NPCDialogue>

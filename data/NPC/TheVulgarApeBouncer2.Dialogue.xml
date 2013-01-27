@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NPCDialogue>
+	<Exchange ID="0" NPCSays="Get away from me, you wretch.">
+		<Response NavID="0">Hello</Response>
+		<Response NavID="0">Hi</Response>
+	</Exchange>
+</NPCDialogue>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NPC name='Drasted the Barkeep' desc="A short, plump and hairless man who claims his father was a gnome; he runs the Vulgar Ape with his two brutal bouncers." dialogue='Dialogue'>
+	<ReferredTo>Drasted</ReferredTo>
+	<ReferredTo>Barkeep</ReferredTo>
+	<Attribute base='8'>Strength</Attribute>
+	<Attribute base='8'>Dexterity</Attribute>
+	<Attribute base='7'>Wisdom</Attribute>
+	<Attribute base='10'>Charisma</Attribute>
+	<Attribute base='7'>Constitution</Attribute>
+	<Attribute base='10'>Intelligence</Attribute>
+	<Attribute base='10'>Perception</Attribute>
+	<Attribute base='3'>Visibility</Attribute>
+	<Item amount='250'>Gold</Item>
+</NPC>

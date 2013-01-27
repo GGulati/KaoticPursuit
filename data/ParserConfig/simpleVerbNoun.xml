@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SimpleVerbNounParser>
+	<IgnoredWord>The</IgnoredWord>
+	<IgnoredWord>A</IgnoredWord>
+	<IgnoredWord>An</IgnoredWord>
+	<IgnoredWord>I</IgnoredWord>
+	<IgnoredWord>He</IgnoredWord>
+	<IgnoredWord>She</IgnoredWord>
+	<IgnoredWord>Him</IgnoredWord>
+	<IgnoredWord>Her</IgnoredWord>
+	<IgnoredWord>It</IgnoredWord>
+	<Punctuation>,</Punctuation>
+	<Punctuation>.</Punctuation>
+	<Punctuation>?</Punctuation>
+	<Punctuation>!</Punctuation>
+	<Punctuation>:</Punctuation>
+	<Punctuation>;</Punctuation>
+</SimpleVerbNounParser>

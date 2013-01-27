@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NPCDialogue>
+	<Exchange ID="0" NPCSays="Well, brawler, can we come to a profitable agreement?">
+		<Response NavID="1">Yes</Response>
+		<Response NavID="1">No</Response>
+	</Exchange>
+	<Exchange ID="1" NPCSays="I specialize in a diverse range of activities... do you want a drink or a job?" threshold=".25">
+		<Response NavID="2">I would like some swill.</Response>
+		<Response flagEquals_1="TestQuestState" NavID="3" FailID="2">I have a quest.</Response>
+	</Exchange>
+	<Exchange ID="2" NPCSays="Pah! I don't have none of that.">
+		<Response NavID="1">Alright, then.</Response>
+	</Exchange>
+	<Exchange ID="3" NPCSays="Fine. You can tell the old man that I said hi.">
+		<Response NavID="2" flagSet_2="TestQuestState">Alright</Response>
+	</Exchange>
+</NPCDialogue>

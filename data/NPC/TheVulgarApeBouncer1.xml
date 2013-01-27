@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NPC name='Hrog the Bouncer' desc='A overweight but frighteningly strong bouncer, Hrog enjoys discussing the merits of clubs versus axes and spears.' dialogue='Dialogue'>
+	<ReferredTo>Hrog</ReferredTo>
+	<Attribute base='11'>Strength</Attribute>
+	<Attribute base='8'>Dexterity</Attribute>
+	<Attribute base='7'>Wisdom</Attribute>
+	<Attribute base='8'>Charisma</Attribute>
+	<Attribute base='11'>Constitution</Attribute>
+	<Attribute base='8'>Intelligence</Attribute>
+	<Attribute base='12'>Perception</Attribute>
+	<Attribute base='3'>Visibility</Attribute>
+	<Item amount='25'>Gold</Item>
+</NPC>

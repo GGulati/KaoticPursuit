@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NPC name='Molly the Bouncer' desc='An grotesquely deformed midget who goes by the name Molly, who would rather gamble than drink.' dialogue='Dialogue'>
+	<ReferredTo>Molly</ReferredTo>
+	<Attribute base='11'>Strength</Attribute>
+	<Attribute base='8'>Dexterity</Attribute>
+	<Attribute base='7'>Wisdom</Attribute>
+	<Attribute base='8'>Charisma</Attribute>
+	<Attribute base='12'>Constitution</Attribute>
+	<Attribute base='8'>Intelligence</Attribute>
+	<Attribute base='12'>Perception</Attribute>
+	<Attribute base='2'>Visibility</Attribute>
+	<Item amount='5'>Gold</Item>
+</NPC>

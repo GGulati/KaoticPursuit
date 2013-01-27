@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Items>
+	<Decoration desc='A bright shiny metal valued in commerce.' weight='.001'>Gold</Decoration>
+	<Decoration name='Diamond' desc='A sparkling almost-translucent gemstone greatly valued by merchants and jewlers.' weight='.50' visibility='6'>
+	</Decoration>
+	<VisMod desc='A everburning flame atop a small shaft of aged wood.' weight='.5' visibility='0' visMod='-3'>Torch</VisMod>
+	<Container desc='A heavy bronze chest studded with iron rivets.' weight='25' capacity='225'>Chest</Container>
+	<Weapon desc='A cheap bronze sword, rusted and pitted.' weight='4' mod='.075' maxMod='5' attachedTo='Primary'>Aged Bronze Sword</Weapon>
+	<Armor desc='A moldering leather haubark.' weight='3' mod='.05' maxMod='3' attachedTo='Chest'>Moldy Leather Armor</Armor>
+</Items>

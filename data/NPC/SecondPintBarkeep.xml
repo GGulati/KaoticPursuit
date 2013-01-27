@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NPC name='Forlan the Barkeep' desc='A self-avowed simple man who dispenses both beer and information at his tavern, The Second Pint.' dialogue='Dialogue'>
+	<ReferredTo>Forlan</ReferredTo>
+	<ReferredTo>Barkeep</ReferredTo>
+	<Attribute base='6'>Strength</Attribute>
+	<Attribute base='8'>Dexterity</Attribute>
+	<Attribute base='9'>Wisdom</Attribute>
+	<Attribute base='12'>Charisma</Attribute>
+	<Attribute base='5'>Constitution</Attribute>
+	<Attribute base='10'>Intelligence</Attribute>
+	<Attribute base='10'>Perception</Attribute>
+	<Attribute base='0'>Visibility</Attribute>
+	<Item amount='1000'>Gold</Item>
+	<Item amount='3'>Moldy Leather Armor</Item>
+	<Item amount='3'>Aged Bronze Sword</Item>
+</NPC>

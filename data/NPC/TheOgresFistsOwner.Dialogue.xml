@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NPCDialogue>
+	<Exchange ID="0" NPCSays="Ah, a customer.">
+		<Response NavID="1">Hello</Response>
+		<Response NavID="1">Hi</Response>
+	</Exchange>
+	<Exchange ID="1" NPCSays="Would you like to buy something or sell something?" threshold=".25">
+		<Response NavID="3">I want to sell</Response>
+		<Response NavID="4">I want to buy</Response>
+	</Exchange>
+	<Exchange ID="2" NPCSays="I'm afraid I can't help you with that.">
+		<Response NavID="1">Alright.</Response>
+	</Exchange>
+	<Exchange ID="3" NPCSays="What would you like to sell to me? I'll purchase Aged Bronze Swords and Moldy Leather Armors for 25 Gold apiece.">
+		<Response NavID="1">Nothing</Response>
+		<Response NavID="5">Aged Bronze Sword</Response>
+		<Response NavID="6">Moldy Leather Armor</Response>
+	</Exchange>
+	<Exchange ID="4" NPCSays="What would you like to buy from me? I sell Aged Bronze Swords and Moldy Leather Armors for 50 Gold apiece.">
+		<Response NavID="1">Nothing</Response>
+		<Response NavID="7" FailID="2">Aged Bronze Sword</Response>
+		<Response NavID="8" FailID="2">Moldy Leather Armor</Response>
+	</Exchange>
+	<Exchange ID="5" NPCSays="Are you sure you want to sell an Aged Bronze Sword for 25 Gold?">
+		<Response NavID="10" FailID="2" itemTake_1="Aged Bronze Sword" itemGive_25="Gold">Yes</Response>
+		<Response NavID="2">No</Response>
+	</Exchange>
+	<Exchange ID="6" NPCSays="Are you sure you want to sell a Moldy Leather Armor for 25 Gold?">
+		<Response NavID="10" FailID="2" itemTake_1="Moldy Leather Armor" itemGive_25="Gold">Yes</Response>
+		<Response NavID="2">No</Response>
+	</Exchange>
+	<Exchange ID="7" NPCSays="Are you sure you want to buy an Aged Bronze Sword for 50 Gold?">
+		<Response NavID="10" FailID="2" itemGive_1="Aged Bronze Sword" itemTake_50="Gold">Yes</Response>
+		<Response NavID="2">No</Response>
+	</Exchange>
+	<Exchange ID="8" NPCSays="Are you sure you want to buy a Moldy Leather Armor for 50 Gold?">
+		<Response NavID="10" FailID="2" itemGive_1="Moldy Leather Armor" itemTake_50="Gold">Yes</Response>
+		<Response NavID="2">No</Response>
+	</Exchange>
+	<Exchange ID="10" NPCSays="Bargain struck. Now, have you any other affairs of interest?">
+		<Response NavID="1">Yes</Response>
+		<Response NavID="2">No</Response>
+	</Exchange>
+</NPCDialogue>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NPC name='Shopkeeper Llaz' desc='A disgruntled ex-officer of the local militia that had a streak of bad luck in gambling and now sells cheap weapons and armor.' dialogue='Dialogue'>
+	<ReferredTo>Llaz</ReferredTo>
+	<ReferredTo>Shopkeeper</ReferredTo>
+	<Attribute base='10'>Strength</Attribute>
+	<Attribute base='8'>Dexterity</Attribute>
+	<Attribute base='7'>Wisdom</Attribute>
+	<Attribute base='9'>Charisma</Attribute>
+	<Attribute base='9'>Constitution</Attribute>
+	<Attribute base='8'>Intelligence</Attribute>
+	<Attribute base='10'>Perception</Attribute>
+	<Attribute base='0'>Visibility</Attribute>
+	<Item amount='1000'>Gold</Item>
+	<Item amount='3'>Moldy Leather Armor</Item>
+	<Item amount='3'>Aged Bronze Sword</Item>
+</NPC>

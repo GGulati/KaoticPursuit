@@ -1,0 +1,10 @@
+<Player name='Skorr' desc='A young adventurer in the land of chaotic'>
+	<Attribute base='10'>Strength</Attribute>
+	<Attribute base='10'>Dexterity</Attribute>
+	<Attribute base='10'>Wisdom</Attribute>
+	<Attribute base='10'>Charisma</Attribute>
+	<Attribute base='10'>Constitution</Attribute>
+	<Attribute base='10'>Intelligence</Attribute>
+	<Attribute base='10'>Perception</Attribute>
+	<Attribute base='10'>Visibility</Attribute>
+</Player>
